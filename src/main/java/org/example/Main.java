@@ -8,6 +8,10 @@ public class Main {
         // Crear una nueva agenda1.
         Agenda agenda1 = new Agenda();
 
+        initAgenda(agenda1);
+    }
+
+    private static void initAgenda(Agenda agenda1) {
         // Añadir contactos a la agenda1.
         agenda1.addContact("John Doe", "1234567890");
         agenda1.addContact("Jane Doe", "9876543210");
