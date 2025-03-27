@@ -19,7 +19,7 @@ public class Main {
 
         // Imprimir todos los contactos de la agenda1.
         System.out.println("Todos los contactos: ");
-        for (Contacto c : agenda1.getContacts()) {
+        for (Persona c : agenda1.getContacts()) {
             System.out.println(c.getName() + " -> " + c.getPhones());
         }
 
@@ -33,7 +33,7 @@ public class Main {
         agenda1.modifyPhoneNumber("John Doe", "1234567890", "6666666666");
 
         System.out.println("\nDespués de añadir, eliminar y modificar contactos: ");
-        for (Contacto c : agenda1.getContacts()) {
+        for (Persona c : agenda1.getContacts()) {
             System.out.println(c.getName() + " -> " + c.getPhones());
         }
     }
