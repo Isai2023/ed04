@@ -9,7 +9,7 @@ import java.util.List;
  * @version 1.0
  * @since 2025
  */
-class Contacto {
+public class Contacto {
     private String name;
     private List<String> phones;
 

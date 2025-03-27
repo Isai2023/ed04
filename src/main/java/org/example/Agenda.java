@@ -3,6 +3,7 @@ package org.example;
 import java.util.*;
 
  /**
+  * Clase agenda: Guarda una serie de contactos.
   * @author dam
   * @version 1.0
   * @since 2015
